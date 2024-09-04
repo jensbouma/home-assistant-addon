@@ -1,8 +1,6 @@
 ---
 url: https://esphome.io/
 arch:
-- amd64
-- armv7
 - aarch64
 hassio_api: true
 auth_api: true
@@ -36,4 +34,3 @@ version: 2024.8.3
 slug: esphome
 description: ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices
 image: ghcr.io/esphome/esphome-hassio
-arch: aarch64
