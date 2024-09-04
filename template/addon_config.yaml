@@ -5,8 +5,6 @@
 base: &base
   url: https://esphome.io/
   arch:
-    - amd64
-    - armv7
     - aarch64
   # Uses Home Assistant Supervisor API (auth)
   hassio_api: true
@@ -88,7 +86,6 @@ esphome-stable:
   slug: esphome
   description: "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices"
   image: ghcr.io/esphome/esphome-hassio
-  arch: aarch64
 
 copy_files:
   - DOCS.md
