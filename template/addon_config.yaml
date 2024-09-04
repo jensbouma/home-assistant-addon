@@ -87,7 +87,7 @@ esphome-stable:
   version: "2024.8.3"  # STABLE
   slug: esphome
   description: "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices"
-  image: ghcr.io/esphome/esphome-hassio
+  image: ghcr.io/esphome/esphome-hassio:2024.8.3@sha256:98ce328826089f64c0366162d8fc0701b4394e8af533dc7c3d0e94c225ad1376
 
 copy_files:
   - DOCS.md
